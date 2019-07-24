@@ -1,0 +1,10 @@
+import turtle
+turtle.shape('turtle')
+finn=turtle.clone()
+finn.shape('square')
+finn.goto(100,100)
+finn.goto(200,100)
+finn.goto(200,200)
+finn.goto(100,200)
+finn.goto(100,100)
+turtle.mainloop()
